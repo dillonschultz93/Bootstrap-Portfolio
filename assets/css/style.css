@@ -47,28 +47,14 @@ body {
     text-align: center;
     background-color: #4eaaa4;
     padding: 10px;
-
     color: #fff;
+    transition: transform 300ms ease-in-out;
 }
 
-
-/*
-@keyframes slideInUp {
-  from {
-    transform: translate3d(0, 100%, 0);
-    visibility: visible;
-  }
-
-  to {
-    transform: translate3d(0, 0, 0);
-  }
+.text-overlay:hover {
+    transform: scale(1.1);
+    z-index: 9;
 }
-
-.slideInUp {
-  animation-name: slideInUp;
-}
-*/
-
 
 .content-title,
 .sidebar-title {
