@@ -29,8 +29,9 @@ body {
 
 .footer p {
     color: #fff;
-/*    font-size: 12px;*/
+    font-size: 10px;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    margin-top: 20px;
 }
 
 #margin-bot {
